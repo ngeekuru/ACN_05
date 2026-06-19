@@ -11,6 +11,7 @@ public class StreamSample {
 		li.stream().
 		filter(n->n%2==0).  //Intermediate
 		forEach(System.out::println);  //Method referance operator
+		//forEach(n->System.out.println(n)); //terminal Lambda Expression
 		
 	}
 
